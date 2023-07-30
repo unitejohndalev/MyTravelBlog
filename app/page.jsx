@@ -6,14 +6,16 @@ const Home = () => {
       <h1 className="head_text text-center">
         Discover & Share
         <br className="max-md:hidden" />
-        <span className="orange_gradient text-center"> Create your own blog post</span>
+        <span className="orange_gradient text-center">
+          Create your funny experience post
+        </span>
       </h1>
       <p className="desc text-center">
-        MyTravelBlog is an online travel blog posting site, where you can find
-        and share travel blog post online.
+        MyFunnyExperiences is an online funny experience posting site where you
+        can find and share funny experiences online.
       </p>
       {/* Feed component */}
-      <Feed/>
+      <Feed />
     </section>
   );
 };

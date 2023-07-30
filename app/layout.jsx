@@ -5,14 +5,15 @@ import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
 export const metadata = {
-  title: "MyTravelBlog",
-  description: "Create your own blog post and share it to everyone",
-  keywords: "MyTravelBlog",
+  title: "ShareMoments",
+  description: "Create your own funny post and share it to everyone",
+  keywords: "ShareMoments",
 };
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <link rel="icon" href="/assets/images/logo.png" sizes="any" />
       <body>
         <Provider>
           <div className="main">
