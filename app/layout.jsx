@@ -6,7 +6,7 @@ import Provider from "@components/Provider";
 
 export const metadata = {
   title: "ShareMoments",
-  description: "Create your own funny post and share it to everyone",
+  description: "Create your own funny moments post and share it to everyone",
   keywords: "ShareMoments",
 };
 
