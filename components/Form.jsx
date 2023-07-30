@@ -7,7 +7,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         <span className="blue_gradient">{type} Post</span>
       </h1>
       <p className="desc text-left max-w-md">
-        {type} and share your amazing funny moment(s) with the world, and let everyone know about them.
+        {type} and share your amazing funny moment(s) with everyone, and let them know about it.
       </p>
 
       <form
